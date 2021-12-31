@@ -1,0 +1,5 @@
+[
+    {"typeOfUser":"Guest","name":"John Doe", "available":"Saturday"},
+    {"typeOfUser":"Guest","name":"Jane Doe", "available":"Monday"},
+    {"typeOfUser":"Guest","name":"??", "available":"Wednesday"}
+]

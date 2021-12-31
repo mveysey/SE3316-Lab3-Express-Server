@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest Page</title>
+</head>
+<body style= "background-color: powderblue;"> 
+
+    <h3 style= "text-align:center; color: black;">Please Specify Availability</h3>
+    <h4 style="text-align:center;font-weight:400;">Check current times to determine availability, then fill out the form below:</h4>
+
+    <div style="text-align:center; padding-bottom:30px;">
+    <a href='/displayTimes'>Click here to see list of current times</a>
+    </div>
+
+    <div style="text-align:center;">
+        <form action='/addGuest' method='get'>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <label for="one">Availability: </label>
+        <input type="checkbox" id="one" name="one">
+        <input type="checkbox" id="two" name="two">
+        <input type="checkbox" id="three" name="three">
+        <input type="checkbox" id="four" name="four">
+        <input type="checkbox" id="five" name="five">
+        <input type="checkbox" id="six" name="six">
+        <input type="checkbox" id="seven" name="seven">
+        <input type="checkbox" id="eight" name="eight">
+        <input type="checkbox" id="nine" name="nine">
+        <input type="checkbox" id="ten" name="ten"><br><br>
+        <input type="submit" value="Save">
+        </form>
+    </div>
+
+    <div style="text-align:center; padding:30px;">
+    <a href='/displayAvailability'>Click here to see list of availability of all users</a>
+    </div>
+
+    <div style="text-align:center; padding-top:200px;">
+        <a href='/index.html'>Click here to go back to home page</a>
+    </div>
+</body>
+
+
+</html>
